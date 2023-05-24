@@ -1,0 +1,26 @@
+t=0
+
+def swap(x,y):
+
+ print("before swaping a:",x)
+
+ print("before swaping b:",y)
+
+ t=x
+
+ x=y
+
+ y=t
+
+ return x,y
+
+a=int(input("enter value: "))
+
+b=int(input("enter value: "))
+
+a,b=swap(a,b)
+
+print("after swapping a become: ",a)
+
+print("after swapping b become: ",b)
+
