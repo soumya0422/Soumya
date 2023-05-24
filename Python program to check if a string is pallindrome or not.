@@ -1,0 +1,14 @@
+Str=input("enter any word(string) to check whether it is palindrome or not : ")
+
+Str2=str[::-1]
+
+print(str2)
+
+if(str==str2):
+
+  print("given string is pallindrome")
+
+else:
+
+  print("given string is not pallindrome") 
+
