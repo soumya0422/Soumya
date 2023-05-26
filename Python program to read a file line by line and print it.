@@ -1,0 +1,16 @@
+L=['my name is soumya.\n',"I am a student.\n"]
+
+file1=open("myfile.txt","w")
+
+file1.writelines(L)
+
+file1.close()
+
+file1=open("myfile.txt","r")
+
+lines=file1.readlines()
+
+for line in lines:
+
+ print(line)
+
