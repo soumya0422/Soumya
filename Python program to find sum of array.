@@ -1,0 +1,5 @@
+arr=[5,8,10,12,80]
+sum=0
+for i in arr:
+    sum=sum+i
+print(sum)    
