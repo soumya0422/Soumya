@@ -12,11 +12,11 @@ if (num>1):
 
   if(flag==1):
 
-	print("number is not prime")
+	print("number is prime")
 
   else:
 
-	print("number is prime")
+	print("number is not prime")
 
 else:
 
